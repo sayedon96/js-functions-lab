@@ -7,7 +7,7 @@ If they're equal, return either one.
 
 Exercise 1 has been completed for you:
 */
-
+console.log("--------------------------Exercise 1------------------------------")
 const maxOfTwoNumbers = (x, y) => {
     if (x >= y) {
       return x;
@@ -27,6 +27,7 @@ Example: isAdult(21) should return 'Adult'.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 2------------------------------")
 const isAdult = (age) => {
     if (age >= 18) {
         return 'Adult';
@@ -49,6 +50,7 @@ Example: isCharAVowel('a') should return true.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 3------------------------------")
 const isCharAVowel = (char) => {
     if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
         return true;
@@ -70,6 +72,7 @@ should return 'johnsmith@example.com'.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 4------------------------------")
 const generateEmail = (name, domain) => {
     return `${name}@${domain}`;
 }
@@ -87,6 +90,7 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 5------------------------------")
 const greetUser = (name, timeOfDay) => {
     return `good ${timeOfDay}, ${name}`;
 }    
@@ -103,6 +107,7 @@ Example: maxOfThree(17, 4, 9) should return 17.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 6------------------------------")  // TODO: Complete the function maxOfThree() here.
 const maxOfThree = (num1, num2, num3) => {
     if (num1 >= num2 && num1 >= num3) {
         return num1;
@@ -126,6 +131,7 @@ Example: calculateTip(50, 20) should return 10.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 7------------------------------")
 const calculateTip = (billAmount, tipPercentage) => {
     return billAmount * tipPercentage / 100;
 }
@@ -146,6 +152,7 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 8------------------------------")
 const convertTemperature = (temperature, scale) => {
     if (scale === 'C') {
         return temperature * 9/5 + 32;
@@ -171,6 +178,7 @@ Example: basicCalculator(10, 5, 'subtract') should return 5.
 
 Complete the exercise in the space below:
 */
+console.log("--------------------------Exercise 9------------------------------")
 const basicCalculator = (num1, num2, operation) => {
     if (operation === 'add') {
         return num1 + num2;
